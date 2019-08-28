@@ -1,0 +1,38 @@
+{
+    "id": "0001",
+    "name": "Inclusive Design",
+    "version": "0.0.1",
+
+    "description": "A Plugin for designers to see how their work translates for people who live with various visual impairments.",
+    "summary": "Summary of your plugin",
+    "releaseNotes": "Release note",
+    "keywords": [
+        "dyslexia",
+        "color blind",
+        "inclusive"
+    ],
+    "languages": [
+        "en"
+
+    ],
+    "website": "anxious.artwork@gmail.com",
+    "author": "Sydney Zuyus",
+    "helpUrl": "anxious.artwork@gmail.com",
+   
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0",
+        "maxVersion": "22.1.12.5"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Hello World Command",
+            "commandId": "quickSwitch2",
+            "shortcut": {"mac": "Cmd+Alt+D", "win": "Ctr+Alt+D"}
+        }
+    
+    
+    ]
+}
